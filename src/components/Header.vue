@@ -1,6 +1,7 @@
 <template>
   <nav>
-      
+    <li><router-link v-bind:to="'/abby'">Abby</router-link></li>
+
   </nav>
 </template>
 
@@ -11,5 +12,7 @@ export default {
 </script>
 
 <style>
-
+li {
+  list-style-type: none;  
+ }
 </style>
