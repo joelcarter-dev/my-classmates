@@ -1,7 +1,5 @@
 <template>
-  <nav>
-      <router-link :to="'/keziah'">Keziah</router-link>
-  </nav>
+  <h1>Keziah's Component</h1>
 </template>
 
 <script>
