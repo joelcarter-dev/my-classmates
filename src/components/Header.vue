@@ -7,6 +7,9 @@
             }"
           >Antons Screen</router-link>
         </li>
+        <li>
+          <router-link :to="'/keziah'">Keziah</router-link>
+        </li>
       </ul>
   </nav>
 </template>

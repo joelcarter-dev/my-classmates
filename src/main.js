@@ -1,13 +1,16 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
+import Keziah from './components/keziah/Keziah.vue';
+import Anton from './components/anton/Anton'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter);
 
-import Anton from './components/anton/Anton'
-
-const routes = [
+const routes = [{
+    path: '/keziah',
+    component: Keziah
+  },
   {
     name: 'anton',
     path: '/anton',
