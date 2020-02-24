@@ -1,6 +1,16 @@
 <template>
   <nav>
-      <router-link :to="'/keziah'">Keziah</router-link>
+      <ul>
+        <li>
+          <router-link :to="{
+            name: 'anton'
+            }"
+          >Antons Screen</router-link>
+        </li>
+        <li>
+          <router-link :to="'/keziah'">Keziah</router-link>
+        </li>
+      </ul>
   </nav>
 </template>
 
@@ -12,4 +22,7 @@ export default {
 
 <style>
 
+li {
+  list-style: none;
+}
 </style>
